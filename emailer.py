@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 # Email credentials
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
-SENDER_EMAIL ="weatherreporter4u@gmail.com"  # Ensure the .env file has the correct `EMAIL`
-EMAIL_PASSWORD = "zcmqyasvkwxulwjo"  # Ensure the .env file has the correct `PASSWORD`
+SENDER_EMAIL ="your-email.com"  # Ensure the .env file has the correct `EMAIL`
+EMAIL_PASSWORD = "your-password"  # Ensure the .env file has the correct `PASSWORD`
 
 def send_email(subject, receiver_email, body):
     """
